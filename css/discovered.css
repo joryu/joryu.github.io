@@ -1,0 +1,33 @@
+h4.discovered{
+ color: #27AD9C;
+ text-align: left;
+ margin-bottom: 0.5em;
+}
+
+.discovered-icon-title{
+  display: inline;
+}
+
+.discovered-fdescriptions{
+  float: right;
+  margin-top: 20em;
+}
+
+.discovered-web {
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 3em;
+}
+
+
+@media (max-width: 900px){
+  .discovered-fdescriptions{
+    margin-top: 10em;
+  }
+}
+
+@media (max-width: 860px){
+  .discovered-fdescriptions{
+    margin: 0em;
+  }
+}

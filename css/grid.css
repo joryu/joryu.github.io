@@ -1,0 +1,77 @@
+.grid:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+[class^='col-'] {
+}
+
+/*the main container (used when one whole column will be used)
+max width is also set*/
+.container {
+	max-width: 1400px;
+	margin: auto;
+}
+
+.col-1of3{
+	width: 33%;
+}
+
+.col-2of3{
+	width: 66%;
+}
+
+.col-1of2{
+	width: 49%;
+}
+
+.col-sidebar{
+	width: 231px;
+}
+
+.col-4of5{
+	width: 80%;
+}
+
+/********** media queries****************/
+
+@media (max-width: 1500px){
+	.container {
+		max-width: 1500px;
+		margin: 0;
+	}
+
+	.col-sidebar{
+		width: 100%;
+	}
+
+	.col-4of5{
+		width: 100%;
+	}
+}
+
+@media (max-width: 860px){
+	.col-1of3{
+		width: 49%;
+	}
+	.col-2of3{
+		width: 100%;
+	}
+	.col-1of2{
+		width: 100%;
+	}
+}
+
+@media (max-width: 620px){
+	.col-1of3{
+		width: 100%;
+	}
+
+}
