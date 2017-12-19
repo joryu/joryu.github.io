@@ -248,7 +248,7 @@ button:focus {outline:0;}
 @media (max-width: 1500px){
   .sidebar-menu{
     margin: -8px 0 0 0;
-    height: 80px;
+    height: 90px;
     background-color: white;
     padding: 1em 0 0 0;
     text-align: left;
