@@ -130,7 +130,7 @@ button:focus {outline:0;}
 }
 
 .others {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
 
   font-weight: normal;
   font-size: 0.8em;
@@ -248,7 +248,7 @@ button:focus {outline:0;}
 @media (max-width: 1500px){
   .sidebar-menu{
     margin: -8px 0 0 0;
-    height: 7%;
+    height: 10%;
     background-color: white;
     padding: 1em 0 0 0;
     text-align: left;
@@ -258,7 +258,6 @@ button:focus {outline:0;}
     display: none;
     padding-bottom: 1em;
     margin-left: -2em;
-    margin-top: -1em;
     width: 180px;
     background-color: white;
   }
