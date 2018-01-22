@@ -117,6 +117,16 @@ button:focus {outline:0;}
   margin-bottom: 0;
 }
 
+.sidemenu-subtitle{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #E1B730;
+  font-size: 1.4em;
+  margin-bottom: 8px;
+  margin-top: 25px;
+}
+
+
 .centered{
   text-align: center;
 }
@@ -130,12 +140,10 @@ button:focus {outline:0;}
 }
 
 .others {
-  font-family: 'Proxima Nova', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
   font-weight: normal;
   font-size: 0.8em;
-
-  margin-top: 2em;
 }
 
 .content {
@@ -154,7 +162,7 @@ button:focus {outline:0;}
 }
 
 .no-title{
-  margin-top: 41px;
+  margin-top: 144px;
 }
 
 .page-sections{
@@ -248,7 +256,7 @@ button:focus {outline:0;}
 @media (max-width: 1500px){
   .sidebar-menu{
     margin: -8px 0 0 0;
-    height: 90px;
+    height: 7%;
     background-color: white;
     padding: 1em 0 0 0;
     text-align: left;
@@ -258,6 +266,7 @@ button:focus {outline:0;}
     display: none;
     padding-bottom: 1em;
     margin-left: -2em;
+    margin-top: -1em;
     width: 180px;
     background-color: white;
   }
