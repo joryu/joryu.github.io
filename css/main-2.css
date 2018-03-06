@@ -1,0 +1,56 @@
+
+body{
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 800;
+  text-align: center;
+}
+
+h1 {
+  color: #E1B730;
+  font-family: 'Playfair Display Header', serif;
+  font-style: italic;
+  font-weight: 800;
+}
+
+p.moved{
+  font-size: 6em;
+  color: #E1B730;
+  margin-bottom: 0;
+  text-transform:uppercase;
+  letter-spacing: 0.1em;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 4em;
+  color: #232323;
+  margin-top: 0;
+  font-weight: 300;
+  font-style: italic;
+}
+
+a:hover{
+    color: #818181;
+}
+
+
+
+/********** font faces****************/
+}
+
+
+@font-face {
+  font-family: Proxima Nova;
+  src: url('fonts/ProximaNova/ProximaNova-Regular.tff');
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url('fonts/Open_Sans/OpenSans-Regular.tff');
+}
